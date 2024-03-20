@@ -1,5 +1,5 @@
 from PyQt6 import QtWidgets, uic
-import sys
+import sys 
 def format_month_string(months):
     if months == 1:
         return "1 месяц"
@@ -7,7 +7,7 @@ def format_month_string(months):
         return f"{months} месяца"
     else:
         return f"{months} месяцев"
-    
+
 def format_year_string(years):
     if years == 1:
         return "1 год"
