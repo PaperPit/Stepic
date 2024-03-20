@@ -1,3 +1,4 @@
+#Fds
 def format_month_string(months):
     if months == 1:
         return "1 месяц"
